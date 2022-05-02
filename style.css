@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Manrope:wght@200&family=Open+Sans:wght@300&family=Quicksand&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+
+}
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+.countdown {
+    display: flex;
+    color: white;
+   transform: scale(2);
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.time h2 {
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+
+}
+
+@media(max-width:1050px) {
+    h1{
+        font-size: 45px;
+    }
+    .time{
+        margin: 5px;
+    }
+    .time h2{
+        font-size: 12px;
+    
+    }
+    .time small{
+        font-size: 10px;
+    
+    }
+}
